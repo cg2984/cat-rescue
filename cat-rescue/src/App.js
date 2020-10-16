@@ -1,11 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import axios from axios
+import CatCard from "./components/cat-card.js";
+import EventCard from "./components/event-card.js";
+import Header from "./components/header.js";
+import CatSection from "./components/cat-section.js";
+import Events from "./components/events.js";
+import About from "./components/about.js";
 
 
 function App() {
- useEffect(() => {
+ /*useEffect(() => {
       axios.get('')
     .then(function (response) {
       // handle success
@@ -18,15 +22,15 @@ function App() {
     .then(function () {
       // always executed
     });
-  });
+  });*/
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Test
-        </p>
-      </header>
+      <div className = "AppWrapper">
+        <Header/>
+        <CatSection/>
+        <Events/>
+        <About/>
+      </div>
     </div>
   );
 }

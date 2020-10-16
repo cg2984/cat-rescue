@@ -1,38 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&family=Syne:wght@400;500;600;700;800&display=swap');
+
 .App {
-  text-align: center;
+  background-color:#FFBB55;
+  margin:0;
+  max-width:100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.AppWrapper{
+  margin:0 60px;
+  padding:0 0 120px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+  text-decoration: none;
+  font-family: 'Sora', sans-serif;
+  font-weight:400;
+  font-size:24pt;
+  margin:0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+li{
+  list-style: none;
+  color:#D15813;
+  margin:0;
+
 }
 
-.App-link {
-  color: #61dafb;
+ul{
+  display:flex;
+  flex-direction:row;
+  align-content:space-evenly;
+  justify-content:center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav{
+  display:flex;
+  flex-direction:space-between;
+  align-items:center;
+  justify-content:space-between;
+  margin:0;
+  position:sticky;
+  top:0;
+  height:120px;
+}
+
+p{
+  font-family: 'Sora', sans-serif;
+  font-weight:400;
+  font-size:24pt;
+  color:#10093E;
+}
+
+h1{
+  font-family: 'Sora', sans-serif;
+  font-weight:700;
+  font-size:72pt;
+  margin:0;
+  color:#D15813;
 }
